@@ -27,9 +27,6 @@
             <div class="col my-1">
                 <ul class="nav justify-content-center">
                     <li class="nav-item">
-                        <a class="nav-link ">Home</a>
-                    </li>
-                    <li class="nav-item">
                         <a class="nav-link" href="#about">About</a>
                     </li>
                     <li class="nav-item">
@@ -53,12 +50,12 @@
                 several websites and created some web
                 projects
                 </p><br>
-                <button style="border-radius: 30px;" type="button" class="btn btn-lg btn-outline-default"
+                <button style="border-radius: 30px;" type="button" class="btn btn-lg btn-outline-default mybtn"
                     onclick="document.location= '#about'">About Me</button>&nbsp;
                 <button onclick="document.location= '#contact'" style="border-radius: 30px;" type="button"
-                    class="btn btn-lg btn-outline-default">Contact Me</button>
+                    class="btn btn-lg btn-outline-default mybtn">Contact Me</button>
             </div>
-            <div class="col-sm-6 my-5 text-center" style="width: 100%;">
+            <div class="col-sm-6 my-5 text-center align-self-center">
                 <img class="img-thumbnail" src="images/mylogomain.jpg" height="380px" width="380px"
                     style="border-radius: 50%;">
             </div>
@@ -149,9 +146,9 @@
     <div class="container about">
         <h2 id="about" class="text-center my-5"><b>About Me</b></h2>
         <div class="row my-3 justify-content-center">
-            <div class="col-sm-6 align-self-center">
+            <div class="col-sm-6 text-center">
                 <img src="images/mylogosec.jpg" height="250px" width="260px"
-                    style="border-radius: 50%;margin-left: 25%;">
+                    style="border-radius: 50%;">
             </div>
             <div class="col-sm-6 my-5 align-self-center">
                 <div class="mycard text-center">
@@ -227,6 +224,17 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
         integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
         crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script> 
+<script> 
+    $(document).ready(function () { 
+        if($(window).width() < 600) { 
+           $(".mybtn").addClass("btn-sm"); 
+           $(".mybtn").removeClass("btn-lg");   
+        }  else
+        $(".mybtn").addClass("btn-lg"); 
+           $(".mybtn").removeClass("btn-sm");   
+    }); 
+</script> 
 </body>
 
 </html>
