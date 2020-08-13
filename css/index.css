@@ -1,0 +1,87 @@
+
+    body {
+        /* font-family: 'Poppins', sans-serif; */
+        font-family: 'Rubik', sans-serif;
+        background-color:black;
+        color: white;
+    }
+    .btn-outline-default 
+    {
+    color: white;
+    border-color:white;
+    }
+    .btn-outline-default:hover{
+      color: white;
+      /* background-color: lawngreen; */
+      border-color: black; 
+      box-shadow: 1px 1px 1px 1px rgb(17, 247, 9), 0 6px 20px 0 rgba(17, 247, 9, 0.223);
+    }
+
+    ul li a{
+    color: white;
+    border-color:white;
+    text-decoration: none;
+    }
+    ul li a:hover{
+        border-radius: 30px;
+        color: white;
+      border-color: white;
+      /* box-shadow: 1px 1px 1px 1px white, 0 6px 20px 0 rgba(17, 247, 9, 0.223); */
+      box-shadow: 1px 1px 1px 1px rgb(17, 247, 9), 0 6px 20px 0 rgba(17, 247, 9, 0.223);
+    }
+    .first{
+        height: 575px;
+    }
+
+    @media (max-width:800px) {
+        .first{
+        height: 90%;
+                }
+    }
+    .card{
+            /* background-color:#282c34; */
+            background-color:black;
+            border-radius: 7px;
+            text-align: center;
+        }
+    .card {
+      box-shadow: 0 1px 1px 0 rgb(17, 247, 9), 0 6px 20px 0 rgba(20, 59, 19, 0.747);
+    }
+    @media (max-width:700px) {
+        .card{
+            width: 60%;
+            margin: 0 auto;
+        }
+    }
+    .card:hover{
+        box-shadow: 1px 2px 1px 2px rgb(17, 247, 9), 0 6px 20px 0 rgba(20, 59, 19, 0.884);
+    }
+
+    hr {
+        display: block;
+        height: 10 px;
+        border: 0;
+        border-top: 1px solid white;
+        margin: 1em 0;
+        padding: 0;
+    }
+
+    .about {
+        font-size: x-large;
+    }
+
+    .fa {
+        padding: 20px;
+        opacity: 0.8;
+        color: white;
+        font-size: 30px;
+        width: 50px;
+        text-align: center;
+        text-decoration: none;
+    }
+
+    /* Add a hover effect if you want */
+    .fa:hover {
+        color: white;
+        opacity: 1;
+    }
