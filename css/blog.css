@@ -9,3 +9,6 @@ body {
 .jumbotron {
   background-color: #262728;
 }
+.lead {
+  font-weight: normal;
+}
