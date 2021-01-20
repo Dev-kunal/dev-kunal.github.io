@@ -1,0 +1,11 @@
+body {
+  font-family: "Rubik", sans-serif;
+  background-color: black;
+  color: white;
+}
+.blog-container {
+  margin: 5vw auto;
+}
+.jumbotron {
+  background-color: #262728;
+}

@@ -1,5 +1,4 @@
 body {
-  /* font-family: 'Poppins', sans-serif; */
   font-family: "Rubik", sans-serif;
   background-color: black;
   color: white;
@@ -12,8 +11,9 @@ body {
   color: white;
   /* background-color: lawngreen; */
   border-color: black;
-  box-shadow: 1px 1px 1px 1px rgb(17, 247, 9),
-    0 6px 20px 0 rgba(17, 247, 9, 0.223);
+  /* box-shadow: 1px 1px 1px 1px rgb(17, 247, 9),
+    0 6px 20px 0 rgba(17, 247, 9, 0.223); */
+  box-shadow: 1px 1px 0px 1px#007bff, 0 6px 20px 0#4593e6fd;
 }
 
 ul li a {
@@ -26,8 +26,9 @@ ul li a:hover {
   color: white;
   border-color: white;
   /* box-shadow: 1px 1px 1px 1px white, 0 6px 20px 0 rgba(17, 247, 9, 0.223); */
-  box-shadow: 1px 1px 1px 1px rgb(17, 247, 9),
-    0 6px 20px 0 rgba(17, 247, 9, 0.223);
+  /* box-shadow: 1px 1px 1px 1px rgb(17, 247, 9),
+    0 6px 20px 0 rgba(17, 247, 9, 0.223); */
+  box-shadow: 1px 1px 1px 1px#007bff, 0 6px 20px 0 #4593e6fd;
 }
 .first {
   height: 575px;
@@ -45,8 +46,9 @@ ul li a:hover {
   text-align: center;
 }
 .card {
-  box-shadow: 0 1px 1px 0 rgb(17, 247, 9), 0 6px 20px 0 rgba(20, 59, 19, 0.747);
+  border: 1px solid white;
 }
+
 @media (max-width: 700px) {
   .card {
     width: 60%;
@@ -54,8 +56,8 @@ ul li a:hover {
   }
 }
 .card:hover {
-  box-shadow: 1px 2px 1px 2px rgb(17, 247, 9),
-    0 6px 20px 0 rgba(20, 59, 19, 0.884);
+  border: none;
+  box-shadow: 1px 2px 1px 2px#007bff, 0 6px 20px 0 #4593e6fd;
 }
 
 hr {
@@ -68,7 +70,14 @@ hr {
 }
 
 .about {
+  display: flex;
+  justify-content: space-between;
   font-size: x-large;
+}
+.about-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .fa {
