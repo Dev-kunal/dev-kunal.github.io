@@ -46,6 +46,7 @@ ul li a:hover {
   text-align: center;
 }
 .card {
+  width: 20vw;
   border: 1px solid white;
 }
 
