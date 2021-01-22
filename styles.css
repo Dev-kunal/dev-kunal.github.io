@@ -17,6 +17,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
+  border-bottom-left-radius: 1.2rem;
 }
 .nav-pills {
   margin-right: 1.3rem;
@@ -85,19 +86,19 @@ hr {
   box-sizing: border-box;
   text-decoration: none;
   padding: 0.5rem 1rem;
-} */
+} 
 
-/* .list-item-inline {
+.list-item-inline {
   display: inline;
   padding: 0rem 0.5rem;
-} */
+} 
 
-/* .navigation {
+ .navigation {
   color: white;
   padding: 1rem;
   border-bottom-left-radius: 1rem;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-} */
+}  */
 
 .navigation .nav-pills {
   text-align: right;
@@ -132,6 +133,8 @@ hr {
 .section {
   padding: 3rem;
   margin: 0 auto;
+  max-width: 700px;
+  border-radius: 2px;
 }
 
 .section h1 {
@@ -139,13 +142,16 @@ hr {
 }
 
 .box {
-  background-color: #6b728048;
+  background-color: #4343481a;
 }
 .link {
   background-color: #434348;
   padding: 0.5rem;
   border-radius: 5px;
   text-decoration: none;
+}
+.link-active {
+  font-weight: bolder;
 }
 .footer {
   background-color: #434348;
@@ -196,5 +202,4 @@ hr {
 }
 .link:hover {
   background-color: #333336;
-  padding: 0.5rem;
 }
